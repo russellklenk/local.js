@@ -1,0 +1,46 @@
+{
+  "name"         : "local.js",
+  "noAnalyze"    : false,
+  "preferGlobal" : false,
+  "main"         : "index.js",
+  "version"      : "1.0.0",
+  "license"      : "Public Domain",
+  "author"       : "Russell Klenk <contact@russellklenk.com>",
+  "description"  : "Simple local HTTP static file server built on node.js.",
+  "homepage"     : "https://github.com/russellklenk/local.js",
+  "bugs"         : "https://github.com/russellklenk/local.js/issues",
+  "contributors" : [
+    {
+      "name"  : "Russell Klenk",
+      "email" : "contact@russellklenk.com"
+    }
+  ],
+  "repository" : {
+    "type"     : "git",
+    "url"      : "https://github.com/russellklenk/local.js.git"
+  },
+  "bin" : {
+    "servelocal" : "./bin/server.js"
+  },
+  "scripts" : {
+  },
+  "keywords" : [
+    "local",
+    "http",
+    "static",
+    "server",
+    "javascript"
+  ],
+  "dependencies" : {
+    "commander"  : ">=1.1.x",
+    "mime"       : ">=1.2.x"
+  },
+  "devDependencies" : {
+  },
+  "bundleDependencies" : [
+  ],
+  "engine" : {
+    "node" : ">=0.8",
+    "npm"  : ">=1.1.36"
+  }
+}
